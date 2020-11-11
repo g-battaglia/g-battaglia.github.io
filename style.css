@@ -15,8 +15,13 @@ body {
     align-items: center;
     position: fixed;
     width: 100vw;
-    height: 2.5rem;
+    height: 3rem;
     font-weight: bold;
+}
+
+.main-header:hover {
+    background-color: rgba(108, 125, 129, 0.98);
+
 }
 
 .main-header__brand {
@@ -89,11 +94,19 @@ body {
     background-color: lightgray;
 }
 
-.open {
+.hide {
     display: none;
 }
 
+.color {
+    background-color: rgba(108, 125, 129, 0.98);
+}
+
 @media  screen and (max-width: 700px) {
+
+    .main-header {
+    background-color: rgba(108, 125, 129, 0.98);
+    }
 
     .main-nav {
         display: none;
@@ -110,13 +123,14 @@ body {
         top: 2.5rem;
         right: 0;
         height: 100vh;
-        width: 35vw;
-        background-color: rgba(108, 125, 129, 0.26);
+        width: 100vw;
+        background-color: rgba(108, 125, 129, 0.98);
+        text-align: center;
     }
 
     .side-bar__item {
         list-style: none;
-        padding: 3vh 0;
+        padding: 11vh 0;
     }
 
     .side-bar__item a {
