@@ -25,7 +25,7 @@ body {
 }
 
 .main-header__brand {
-    display: inline;
+    font-size: 2rem;
     padding: 0 1rem;
 }
 
