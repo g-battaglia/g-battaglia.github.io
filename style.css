@@ -85,6 +85,11 @@ a {
     border-radius: 25%;
 }
 
+.side-bar {
+    visibility: visible;
+    transition: visibility 0s, opacity 0.2s linear;
+}
+
 #home, #bio, #contatti {
     width: 100vw;
     height: 100vh;
@@ -113,11 +118,6 @@ a {
     height: 90vh;
 }
 
-.hide {
-    display: none;
-    height: 100wh;
-}
-
 .color {
     background-color: rgba(108, 125, 129, 0.98);
 }
@@ -129,6 +129,18 @@ a {
     color: white;
     justify-content: center;
     align-items: center;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media  screen and (min-width: 701px) {
+    .side-bar {
+        display: none;
+    }
+
 }
 
 @media  screen and (max-width: 700px) {
@@ -166,7 +178,6 @@ a {
         text-decoration: none;
         color: black;
     }
-
 
     
 }
