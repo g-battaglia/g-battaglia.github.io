@@ -124,14 +124,14 @@ a {
 .credist {
     display: flex;
     height: 10vh;
-    background-color: black;
+    background-color: rgba(108, 125, 129, 0.98);
     color: white;
     justify-content: center;
     align-items: center;
 }
 
 .fab, .fas{
-    font-size: 20vw;
+    font-size: min(20vw, 200px);
     cursor: pointer;
     margin: 5vh;
     color: rgba(108, 125, 129, 0.699);
@@ -147,14 +147,14 @@ a {
     opacity: 0;
 }
 
-@media  screen and (min-width: 701px) {
+@media  screen and (min-width: 601px) {
     .side-bar {
         display: none;
     }
 
 }
 
-@media  screen and (max-width: 700px) {
+@media  screen and (max-width: 600px) {
 
     .main-header {
     background-color: rgba(108, 125, 129, 0.98);
