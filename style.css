@@ -15,6 +15,7 @@ body {
 
 a {
     outline: none;
+    color: black;
 }
 
 .main-header {
@@ -42,7 +43,6 @@ a {
 
 .main-header__brand a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
 }
 
 
@@ -60,7 +60,6 @@ a {
 .main-nav_item a {
     text-decoration: none;
     cursor: pointer;
-    color: black;
     border-bottom: solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -131,6 +130,18 @@ a {
     align-items: center;
 }
 
+.fab, .fas{
+    font-size: 20vh;
+    cursor: pointer;
+    margin: 5vh;
+    color: rgba(0, 0, 0, 0.432);
+    transition: color 0.5s;
+}
+
+.fab:hover, .fas:hover {
+    color: black;
+}
+
 .hide {
     visibility: hidden;
     opacity: 0;
@@ -176,7 +187,6 @@ a {
 
     .side-bar__item a {
         text-decoration: none;
-        color: black;
     }
 
     
