@@ -1,9 +1,9 @@
-var toglemenu = document.querySelector(".togle-menu")
-var sidebar = document.querySelector(".side-bar")
-var mainheader = document.querySelector(".main-header")
+var togleMenu = document.querySelector(".togle-menu")
+var sideBar = document.querySelector(".side-bar")
+var mainHeader = document.querySelector(".main-header")
 
-toglemenu.addEventListener("click", function() {
-    sidebar.classList.toggle("hide");
-    mainheader.classList.toggle("color")
+togleMenu.addEventListener("click", function() {
+    sideBar.classList.toggle("hide");
+    mainHeader.classList.toggle("color")
 
 })
